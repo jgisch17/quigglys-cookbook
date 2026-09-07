@@ -1,6 +1,6 @@
 # Quiggly's Cookbook
 
-61 recipes as a single self-contained HTML page. 59 transcribed from the handwritten card box, plus 2 from the to-do sticky note that were never written onto cards.
+62 recipes as a single self-contained HTML page. 59 transcribed from the handwritten card box, plus 2 from the to-do sticky note and 1 added from the web. None of those 3 are on cards yet.
 
 ## Files
 
