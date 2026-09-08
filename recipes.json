@@ -1278,14 +1278,15 @@
     "title": "Guacamole",
     "source": "IMG_1753",
     "tags": [
-      "sauce",
-      "dip",
+      "appetizer",
       "condiment",
+      "dip",
+      "mexican",
       "no cook",
       "quick",
-      "mexican",
-      "vegetarian",
-      "side"
+      "sauce",
+      "side",
+      "vegetarian"
     ],
     "ingredients": [
       "Avocado - 2",
@@ -1315,9 +1316,10 @@
     ],
     "facets": {
       "Dish": [
-        "sauce",
-        "dip",
+        "appetizer",
         "condiment",
+        "dip",
+        "sauce",
         "side"
       ],
       "Method": [
@@ -1630,12 +1632,13 @@
     "title": "Chipotle Tomatillo Green-Chili Salsa",
     "source": "IMG_1753",
     "tags": [
-      "sauce",
-      "salsa",
+      "appetizer",
       "condiment",
       "mexican",
-      "spicy",
       "roasted",
+      "salsa",
+      "sauce",
+      "spicy",
       "vegetarian"
     ],
     "ingredients": [
@@ -1673,9 +1676,10 @@
     ],
     "facets": {
       "Dish": [
-        "sauce",
+        "appetizer",
+        "condiment",
         "salsa",
-        "condiment"
+        "sauce"
       ],
       "Cuisine": [
         "mexican"
@@ -3435,13 +3439,14 @@
     "title": "Quiggly's Focaccia Bread",
     "source": "IMG_1761",
     "tags": [
-      "bread",
+      "appetizer",
       "baking",
+      "bread",
       "focaccia",
+      "herbs",
       "italian",
       "project",
-      "vegetarian",
-      "herbs"
+      "vegetarian"
     ],
     "ingredients": [
       "5 cups bread flour",
@@ -3475,6 +3480,7 @@
     ],
     "facets": {
       "Dish": [
+        "appetizer",
         "bread",
         "focaccia"
       ],
@@ -3551,14 +3557,15 @@
     "title": "Agi's Famous Garlic Bread",
     "source": "IMG_1761",
     "tags": [
+      "appetizer",
       "bread",
-      "side",
       "garlic",
-      "roasted",
       "italian",
-      "vegetarian",
       "quick",
-      "spicy"
+      "roasted",
+      "side",
+      "spicy",
+      "vegetarian"
     ],
     "ingredients": [
       "1 head of garlic",
@@ -3597,6 +3604,7 @@
     ],
     "facets": {
       "Dish": [
+        "appetizer",
         "bread",
         "side"
       ],
