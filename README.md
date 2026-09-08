@@ -1,11 +1,11 @@
 # Quiggly's Cookbook
 
-62 recipes as a single self-contained HTML page. 59 transcribed from the handwritten card box, plus 2 from the to-do sticky note and 1 added from the web. None of those 3 are on cards yet.
+63 recipes as a single self-contained HTML page. 59 transcribed from the handwritten card box, plus 2 from the to-do sticky note, 1 added from the web, and 1 worked out in the kitchen. None of those 4 are on cards yet.
 
 ## Files
 
 - `index.html` — the whole site. Data is embedded, no build step, no server. Double-click it and it works.
-- `recipes.json` — the same recipes as plain data, if you'd rather edit them there.
+- `recipes.json` — the same recipes as plain data, including `keys`, `staples` and `facets`, if you'd rather edit them there.
 
 ## Putting it on GitHub Pages
 
@@ -16,11 +16,15 @@
 
 ## What the site does
 
-**Browse** — every recipe, alphabetical. Search hits titles, ingredients, tags, and instruction text.
+**Browse** — every recipe, alphabetical until you search.
+
+**Search** — word order doesn't matter and filler words are ignored, so *spicy beef recipe* finds Spicy Coconut Beef Broth Bowls. Plurals match their singular (*tomatoes* finds tomato recipes). Results are ranked by where the match landed, so a title hit beats a word buried in step 7. If a search finds nothing, it retries allowing a typo or two and tells you what it searched instead: *no matches for chiken, showing results for chicken*.
 
 **Filters** — collapsed by default so recipes stay above the fold. Six groups (protein, dish, cuisine, method, effort, vibe), and recipes carry multiple tags, so Chicken Tortilla Soup shows up under *soup*, *chicken*, *beans*, and *mexican*.
 
 **What can I make?** — add what's in your fridge and every recipe gets ranked by how much of it you already cover. Each card shows a percentage, what you have, and what's missing. Two toggles: assume you have basics (salt, oil, garlic, butter), and only show recipes you can make right now.
+
+Matching is word-based, not string-based: *bell peppers* covers **red bell pepper**, *scallions* covers **green onions**, and a misspelling still lands. It deliberately won't credit you for a different product, so fresh tomatoes don't count as **tomato paste** and raw chicken doesn't count as **chicken broth**. Synonyms live in `SYN_GROUPS`, and the words that mark a distinct product live in `PRODUCT`, both near the top of the script in `index.html`.
 
 Your pantry list, theme, and toggles persist in the browser via localStorage.
 
@@ -41,7 +45,7 @@ Edit the JSON inside the `<script id="data">` tag near the bottom of `index.html
 }
 ```
 
-`keys` is what the pantry matcher scores against, `staples` is what it ignores when the "assume I have basics" box is checked. Prefix an ingredient with `Label:` to group it visually (see Chicken Tikka Masala).
+`keys` is what the pantry matcher scores against, `staples` is what it ignores when the "assume I have basics" box is checked. Write them as plain ingredient names with no quantities or units, since the matcher compares them word by word. Prefix an ingredient with `Label:` to group it visually (see Chicken Tikka Masala).
 
 ## Known gaps
 
