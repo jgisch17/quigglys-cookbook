@@ -4412,5 +4412,73 @@
         "summer"
       ]
     }
+  },
+  {
+    "title": "Spicy Tommy's Margarita",
+    "source": "Not on a card",
+    "tags": [
+      "drink",
+      "cocktail",
+      "margarita",
+      "tequila",
+      "mexican",
+      "no cook",
+      "quick",
+      "spicy",
+      "summer",
+      "vegetarian"
+    ],
+    "ingredients": [
+      "4 oz blanco tequila",
+      "2 oz fresh lime juice (about 2 limes)",
+      "1.25 oz agave syrup",
+      "4-6 jalapeño slices (seeds in for more heat)",
+      "Ice",
+      "Rim (optional): Tajín or kosher salt, lime wedge to wet the rim",
+      "Garnish: lime wheel, jalapeño slice"
+    ],
+    "instructions": [
+      "Rim 2 rocks glasses: run a lime wedge around the edge and dip in Tajín / salt. Fill w/ fresh ice",
+      "Muddle jalapeño slices in the bottom of a shaker",
+      "Add tequila / lime juice / agave. Fill shaker w/ ice",
+      "Shake hard 10-15 sec till the shaker is frosty",
+      "Double strain over fresh ice. Garnish w/ lime wheel & jalapeño slice"
+    ],
+    "serves": "2",
+    "prep": "5 min",
+    "notes": "Not on a card yet. Classic Tommy's doubled (2:1:½ tequila / lime / agave), but agave is 1.25 oz instead of 1 oz. Taste the jalapeño first, they vary a lot. Want it hotter, let the muddled jalapeño sit in the tequila a few minutes before shaking.",
+    "keys": [
+      "blanco tequila",
+      "lime juice",
+      "agave syrup",
+      "jalapeno",
+      "tajin"
+    ],
+    "staples": [
+      "ice",
+      "kosher salt"
+    ],
+    "facets": {
+      "Dish": [
+        "drink",
+        "cocktail"
+      ],
+      "Protein": [
+        "vegetarian"
+      ],
+      "Cuisine": [
+        "mexican"
+      ],
+      "Method": [
+        "no cook"
+      ],
+      "Effort": [
+        "quick"
+      ],
+      "Vibe": [
+        "spicy",
+        "summer"
+      ]
+    }
   }
 ]
